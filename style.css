@@ -1,0 +1,41 @@
+body{
+    background-image: url("fundo-rosa.png");
+    background-size: cover;
+    text-align: center;
+}
+
+img {
+    height:40px;
+    width: 40px;
+}
+
+hr {
+    height: 5px;
+    width: 500px;
+    background-color: rgb(254, 231, 234);
+    border: none;
+}
+
+button {
+    background-color: rgb(250, 208, 214);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+canvas {
+    margin-top: 5%;
+    animation-name: cor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes cor {
+    from {
+        box-shadow: 2px 2px 30px pink ;
+    }
+    to {
+        box-shadow: 2px 2px 30px rgb(255, 128, 149) ;
+    }
+}
